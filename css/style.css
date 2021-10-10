@@ -1,0 +1,229 @@
+.body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.projects {
+    color: black;
+    text-decoration: none;
+}
+
+.projects:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.face {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+li {
+    padding: 20px;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.logo:hover {
+    padding: 5px;
+    border-radius: 10px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1), 0 4px 8px rgba(0, 0, 0, 1);
+    border-bottom: 2px solid #f5ba09;
+    color: black;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+    filter: drop-shadow(5px 5px 5px #666666);
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    width: auto;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    height: auto;
+    font-size: auto;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1), 0 4px 8px rgba(0, 0, 0, 1);
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.25s ease;
+}
+
+.hi {
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    line-height: normal;
+    border: 1px solid #f5ba09;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.bar {
+    display: none;
+    float: right;
+}
+
+.black {
+    color: black;
+}
+
+.main-image {
+    border: transparent;
+    cursor: pointer;
+}
+
+.main-container {
+    min-height: 100vh;
+    margin: 30px;
+}
+
+.main_row {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.main_row h1 {
+    font-size: 5.1rem;
+    font-weight: bold;
+}
+
+.main_row h1:hover {
+    transform: scale(1.05);
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.25s ease;
+}
+
+.main_row img {
+    width: auto;
+    height: auto;
+}
+
+.clutch {
+    background-color: transparent;
+}
+
+.clutch:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+#about {
+    background: #94599b;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    cursor: pointer;
+}
+
+.card {
+    border: transparent;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+    max-height: max-content;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1), 0 4px 8px rgba(0, 0, 0, 1);
+    transition: 1s ease;
+}
+
+#about {
+    max-width: 90%;
+}
+
+#social-media {
+    background-color: #333;
+    padding: 20px;
+}
+
+.media_link {
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    border: 2px solid #f5ba09;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.media_link:hover {
+    background: rgb(245, 186, 9, 0.25);
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1), 0 4px 8px rgba(0, 0, 0, 1);
+    transition: 1s ease;
+}
+
+.socmed {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.foot {
+    display: flex;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
